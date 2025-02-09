@@ -1,0 +1,1 @@
+{"user": {"income": 5000, "expenses": 2000, "emi": 2500, "motivation": "Quick Strikes", "stress": "Panic"}, "debts": [{"name": "Credit Card", "balance": 1500, "apr": 22.0, "min_emi": 45}, {"name": "Student Loan", "balance": 3000, "apr": 6.0, "min_emi": 800}]}
