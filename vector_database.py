@@ -48,7 +48,7 @@ from pymongo import MongoClient
 from pymongo.errors import BulkWriteError
 from bson import ObjectId
 
-MONGO_URI = "mongodb+srv://manali0210:TrBaO7bfGRxSFzyy@cluster0.pjfepaj.mongodb.net/"
+MONGO_URI = YOUR_URI
 DATABASE_NAME = "vector_db"
 COLLECTION_NAME = "embeddings"
 
