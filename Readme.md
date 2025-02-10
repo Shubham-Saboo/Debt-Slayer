@@ -1,12 +1,11 @@
-# Project README
+# Debt Slayer: AI Debt Management Advisor
 
-This is a Python project with three Python files representing different phases of the project. Below are the instructions for setting up the environment and running the project.
+Debt Slayer is an AI-powered debt management advisor designed to help users create a consolidated debt report and develop a personalized debt management strategy. By analyzing the user's financial profile, Debt Slayer provides actionable insights and a tailored repayment plan. The application leverages a Retrieval-Augmented Generation (RAG) pipeline powered by the Deepseek R1 reasoning model, to offer users the most relevant and effective debt management strategies.
 
 ---
 
 ## Table of Contents
 1. [Environment Setup](#environment-setup)
-    - [Using Pipenv](#using-pipenv)
     - [Using Conda](#using-conda)
     - [Using Pip](#using-pip)
 2. [Running the Project](#running-the-project)
@@ -14,31 +13,6 @@ This is a Python project with three Python files representing different phases o
 ---
 
 ## Environment Setup
-
-### Using Pipenv
-Pipenv is a tool that manages dependencies and virtual environments for Python projects.
-
-1. Install Pipenv if you don't have it:
-    ```
-    pip install pipenv
-    ```
-
-2. Navigate to the project directory and create a virtual environment:
-    ```
-    pipenv install
-    ```
-
-3. Activate the virtual environment:
-    ```
-    pipenv shell
-    ```
-
-4. (Optional) Install any additional dependencies:
-    ```
-    pipenv install <package_name>
-    ```
-
----
 
 ### Using Conda
 Conda is an open-source package management system and environment management system.
@@ -91,22 +65,8 @@ Pip is the standard package installer for Python.
 ---
 
 ## Running the Project
-
-The project consists of three Python files, each corresponding to a different phase of the project:
-
-1. Phase 1: Run the first phase using:
     ```
     streamlit run frontend.py
-    ```
-
-2. Phase 2: Run the second phase using:
-    ```
-    python vector_database.py
-    ```
-
-3. Phase 3: Run the third phase using:
-    ```
-    python rag_pipeline.py
     ```
 
 Ensure that all dependencies are installed before running the scripts.
