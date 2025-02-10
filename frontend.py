@@ -149,40 +149,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# user_data = {}
-
-# def select_strategy(debts, motivation):
-#     """Selects debt repayment strategy based on motivation and APR."""
-#     if motivation == "Quick Strikes":
-#         return "Avalanche Assault"  # Highest APR first
-#     else:
-#         return "Snowball Charge"  # Smallest debt first
-
-# with st.form("warrior_form"):
-#     # Core Financials
-#     with st.expander("💰 Financial Profile", expanded=True):
-#         user_data["income"] = st.number_input("Monthly Gold Income", min_value=0, step=100)
-#         user_data["expenses"] = st.number_input("Monthly Expenses", min_value=0, step=100)
-#         user_data["emi"] = st.slider("Available for Battles", min_value=100, max_value=10000, step=100)
-
-#     # Debt Inputs
-#     with st.expander("🧌 Debt Monsters", expanded=True):
-#         debts = []
-#         num_debts = st.number_input("How many debt monsters do you have?", min_value=1, step=1)
-#         for i in range(num_debts):
-#             cols = st.columns([3, 2, 2, 2])
-#             debts.append({
-#                 "name": cols[0].text_input(f"Monster {i+1} Name", f"Debt Monster {i+1}"),
-#                 "balance": cols[1].number_input("Gold Owed", min_value=0, step=100, key=f"balance_{i}"),
-#                 "apr": cols[2].number_input("Dragon Fire % (APR)", min_value=0.0, step=0.1, key=f"apr_{i}"),
-#                 "min_emi": cols[3].number_input("Min EMI", min_value=0, step=50, key=f"min_emi_{i}")
-#             })
-
-#     # Behavioral Profile
-#     with st.expander("🧠 Battle Strategy", expanded=True):
-#         user_data["motivation"] = st.radio("⚔️ Motivation", ["Quick Strikes", "Long Campaign"], index=0)
-#         user_data["stress"] = st.select_slider("😨 Stress Level", ["Calm", "Tense", "Panic"], value="Panic")
-
 user_data = {}
 
 with st.form("warrior_form"):
@@ -213,9 +179,6 @@ with st.form("warrior_form"):
         if st.form_submit_button("⚔️ Prepare for Battle - Submit Data"):
             with open("user_data.json", "w") as f:
                 json.dump({"user": user_data, "debts": debts}, f)
-    # if st.form_submit_button("⚔️ Prepare for Battle - Submit Data"):
-    #     with open("user_data.json", "w") as f:
-    #         json.dump({"user": user_data, "debts": debts}, f)
 
 # ======================
 # 🧙 AI Battle Planner
@@ -416,7 +379,3 @@ if st.button("Ask"):
         st.chat_message("AI Financial Assistant").write(response.content)
     else:
         st.warning("Please enter a query!")
-
-# ======================
-# 🎮 Game Theme Setup
-# ======================
