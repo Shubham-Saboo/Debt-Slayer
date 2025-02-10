@@ -4,7 +4,9 @@ Debt Slayer is an AI-powered debt management advisor designed to help users crea
 
 ---
 
-Tech Stack: MongoDB, Langchain, Huggingface, GROQ, Deepseek R1 reasoning model, Streamlit
+### Tech Stack: MongoDB, Langchain, Huggingface, GROQ, Deepseek R1 reasoning model, Streamlit
+
+---
 
 ### DEMO VIDEO: https://youtu.be/q4Nu5Xq1qJs
 
