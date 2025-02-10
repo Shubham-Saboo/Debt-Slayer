@@ -4,6 +4,8 @@ Debt Slayer is an AI-powered debt management advisor designed to help users crea
 
 ---
 
+Tech Stack: MongoDB, Retrieval Augmented Generation, Deepseek R1 reasoning model, Streamlit
+
 ### DEMO VIDEO: https://youtu.be/q4Nu5Xq1qJs
 
 [![Watch the video](https://img.youtube.com/vi/q4Nu5Xq1qJs/0.jpg)](https://www.youtube.com/watch?v=q4Nu5Xq1qJs)
