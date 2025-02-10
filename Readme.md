@@ -4,6 +4,14 @@ Debt Slayer is an AI-powered debt management advisor designed to help users crea
 
 ---
 
+https://youtu.be/q4Nu5Xq1qJs
+
+[![Watch the video](https://img.youtube.com/vi/_q4Nu5Xq1qJs/0.jpg)](https://www.youtube.com/watch?v=_q4Nu5Xq1qJs)
+
+
+
+
+
 ## Table of Contents
 1. [Environment Setup](#environment-setup)
     - [Using Conda](#using-conda)
